@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <!-- 这里是内嵌的 CSS 样式 -->
+    <style>
+        /* 全局基础样式 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f7f9fa;
+            color: #333333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 网页居中的卡片大盒子 */
+        .card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        /* 标题样式 */
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        /* 副标题/座右铭样式 */
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        /* 段落文字样式 */
+        p {
+            line-height: 1.6;
+            color: #555555;
+            margin-bottom: 25px;
+        }
+
+        /* 按钮/链接区域 */
+        .btn-group {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        /* 统一的美观按钮样式 */
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        /* 鼠标悬停时的按钮颜色加深 */
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* 第二个按钮的辅助样式 */
+        .btn-secondary {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+
+        .btn-secondary:hover {
+            background-color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 核心卡片容器 -->
+    <div class="card">
+        <h1>你好，欢迎来到我的网站！👋</h1>
+        <div class="subtitle">这是我的个人主页，正在用 GitHub Pages 完美托管。</div>
+        
+        <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
+
+        <p>
+            我正在学习网页制作，通过 HTML 和 CSS 搭建属于自己的网络空间。
+            这里以后会用来记录我的项目、作品和日常生活。
+        </p>
+
+        <!-- 页面下方的导航按钮 -->
+        <div class="btn-group">
+            <a href="about.html" class="btn">了解关于我</a>
+            <a href="https://github.com" target="_blank" class="btn btn-secondary">访问 GitHub</a>
+        </div>
+    </div>
+
+</body>
+</html>
